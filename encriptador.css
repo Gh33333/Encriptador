@@ -14,9 +14,9 @@ header{
 }
 
 .entradatexto{
-    padding: 3%;
     display: inline-block;
-    margin: 0 0 0 10%;
+    margin: 3% 0 0 12%;
+    height: 400px;
 }
 
 .entradatexto textarea{
@@ -62,7 +62,7 @@ padding: 30px 30px;
 
 .botones{
 width: 60%;
-margin: 10px 10px 10px 100px;
+margin: 10px 10px 10px 12%;
 }
 
 .botones p{
