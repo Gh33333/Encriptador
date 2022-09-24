@@ -16,13 +16,17 @@ header{
 .entradatexto{
     display: inline-block;
     margin: 3% 0 0 12%;
-    height: 400px;
+    width: 50%;
+    height: 650px;
 }
 
 .entradatexto textarea{
     border: none;
     background: none;
-    font-size: 22px;
+    font-size: 30px;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
 }
 
 .entradatexto ::placeholder{
@@ -35,6 +39,7 @@ header{
  position: absolute;
  top: 60px;
  right: 30px;
+ width: 30%;
 }
 
 .salidatexto textarea{
@@ -44,22 +49,21 @@ border-radius: 32px;
 box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 padding: 30px 30px;
 width: 80%;
+height: 900px;
 }
 
 .imagensaslida::placeholder{
     background-image: url(pics/1.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 240px;
-    height: 500px;
+    width: 80%;
+    height: 800px;
     color: blue;
     text-align:bottom;
-    background-size: 100%;
+    background-size: 90%;
     padding: 1px 19px;
-}
-
-.salidatexto textarea{
-    docume
+    background-position-x:100%;
+    background-position-y:200px;
 }
 
 .copiar{
@@ -69,10 +73,9 @@ width: 80%;
     width: 60%;
     height: 67px;
     position: absolute;
-    top: 560px;
-    right: 19%;
+    top: 800px;
+    right: 24%;
 }
-
 .botones{
 width: 60%;
 margin: 10px 10px 10px 12%;
