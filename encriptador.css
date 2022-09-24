@@ -46,6 +46,18 @@ padding: 30px 30px;
 width: 80%;
 }
 
+.imagensaslida::placeholder{
+    background-image: url(pics/place.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 240px;
+    height: 500px;
+    color: blue;
+    text-align:bottom;
+    background-size: 100%;
+    padding: 1px 19px;
+}
+
 .copiar{
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -92,4 +104,3 @@ margin-right: 7px;
     font-size: 16px;
     margin-left: 20px;
 }
-
