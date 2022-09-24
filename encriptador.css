@@ -47,7 +47,7 @@ width: 80%;
 }
 
 .imagensaslida::placeholder{
-    background-image: url(pics/place.png);
+    background-image: url(pics/1.png);
     background-repeat: no-repeat;
     background-position: bottom;
     width: 240px;
@@ -56,6 +56,10 @@ width: 80%;
     text-align:bottom;
     background-size: 100%;
     padding: 1px 19px;
+}
+
+.salidatexto textarea{
+    docume
 }
 
 .copiar{
