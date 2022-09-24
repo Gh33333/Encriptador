@@ -43,21 +43,18 @@ border: 2px solid white;
 border-radius: 32px;
 box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 padding: 30px 30px;
+width: 80%;
 }
 
 .copiar{
-    display: block;
-    box-sizing: border-box;
-    flex-direction: row;
-    padding: 24px;
-    gap: 8px;
-    width: 90%;
-    height: 67px;
     border: 1px solid #0A3871;
     border-radius: 24px;
+    padding: 24px;
+    width: 60%;
+    height: 67px;
     position: absolute;
     top: 560px;
-    right: 15px;
+    right: 19%;
 }
 
 .botones{
