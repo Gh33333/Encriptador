@@ -111,3 +111,71 @@ margin-right: 7px;
     font-size: 16px;
     margin-left: 20px;
 }
+
+@media screen and (max-width:800px){
+    
+.entradatexto, .salidatexto, .botones, .caja, .copiar{
+    display: block;
+    width: auto;
+}
+}
+
+.entradatexto{
+height: 500px;
+margin: 117px 0 0 40px;
+width: 90%;
+}
+
+.entradatexto textarea{
+font-size: 33px;
+padding: 8px;
+width: 100%;
+height: 80%;
+}
+
+.botones{
+    margin: 10% 3% 8% 3%;
+
+}
+
+.salidatexto{
+margin: 5%;
+position: static;
+
+}
+
+.salidatexto textarea{
+height: 300px;
+font-size: 24px;
+width: 90%;
+}
+
+.imagensaslida::placeholder{
+    background-image: none;
+    background-position: center;
+    text-align:bottom;
+    background-position-x:100%;
+    font-size: 24px;
+
+}
+
+.copiar{
+    width: 80%;
+    height: 67px;
+    position: absolute;
+    top: 1240px;
+    right: 10.2%;
+    font-size: 16px;
+}
+
+
+.en{
+width: 48%;
+font-size: 16px;
+}
+
+.des{
+width: 48%;
+font-size: 16px;
+margin-left: 3%;
+}

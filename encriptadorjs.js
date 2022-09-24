@@ -1,5 +1,4 @@
 var button = document.querySelector("button")
-button.onclick = verificar
 
 function text(valor) {
     document.getElementById("txencriptado").innerHTML=valor
