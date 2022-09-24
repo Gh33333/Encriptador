@@ -144,7 +144,7 @@ position: static;
 }
 
 .salidatexto textarea{
-height: 300px;
+height: 250px;
 font-size: 24px;
 width: 90%;
 }
@@ -161,12 +161,10 @@ width: 90%;
 .copiar{
     width: 80%;
     height: 67px;
-    position: absolute;
-    top: 1240px;
-    right: 10.2%;
+    position: static;
     font-size: 16px;
+    margin: 2% 10%;
 }
-
 
 .en{
 width: 48%;
@@ -180,4 +178,76 @@ margin-left: 3%;
 }
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:449px){
+    
+    .entradatexto, .salidatexto, .botones, .caja, .copiar{
+        display: block;
+        width: auto;
+    }
+
+   .a{
+        width: 100px;
+    }
+    
+    .entradatexto{
+    width: 96%;
+    float: left;
+    margin: 0 2% 15% 2%;
+    height: 600px;
+
+    }
+    
+    .entradatexto textarea{
+    font-size: 33px;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
+    }
+    
+    .botones{
+        width: 100%;
+    }
+    
+    .en{
+        margin-left: 3%;
+        display: block;
+        align-content: center;
+        float: left;
+        width: 90%;
+    }
+    
+    .des{
+        display: block;
+        margin: 5% 3% 15%;
+        width: 90%;
+        float: left;
+    }
+        
+    .salidatexto textarea{
+        height: 520px;
+        font-size: 24px;
+        width: 86%;
+        float: left;
+        margin-bottom: 5%;
+        }
+        
+    .imagensaslida::placeholder{
+            background-image: none;
+            background-position: center;
+            text-align:bottom;
+            background-position-x:100%;
+            font-size: 24px;
+        }
+        
+    .copiar{
+            width: 80%;
+            height: 67px;
+            position: static;
+            font-size: 16px;
+            margin: 2% 10%;
+        }
+    }
+
+
+
+
