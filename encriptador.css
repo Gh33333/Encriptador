@@ -118,7 +118,6 @@ margin-right: 7px;
     display: block;
     width: auto;
 }
-}
 
 .entradatexto{
 height: 500px;
@@ -179,3 +178,6 @@ width: 48%;
 font-size: 16px;
 margin-left: 3%;
 }
+}
+
+@media screen and (max-width:800px)
